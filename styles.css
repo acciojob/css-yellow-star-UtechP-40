@@ -1,4 +1,3 @@
-/*  your css code here. If applicable */
 .star {
             margin: 50px 0;
             position: relative;
@@ -7,12 +6,12 @@
             width: 0px;
             height: 0px;
             border-right: 100px solid transparent;
-            border-bottom: 70px solid yellow;
+            border-bottom: 100px solid yellow;
             border-left: 100px solid transparent;
             transform: rotate(35deg);
         }
         .star:before {
-            border-bottom: 80px solid yellow;
+            border-bottom: 100px solid yellow;
             border-left: 30px solid transparent;
             border-right: 30px solid transparent;
             position: absolute;
@@ -33,8 +32,9 @@
             width: 0px;
             height: 0px;
             border-right: 100px solid transparent;
-            border-bottom: 70px solid yellow;
+            border-bottom: 100px solid yellow;
             border-left: 100px solid transparent;
             transform: rotate(-70deg);
             content: '';
         }
+    </style>
